@@ -145,6 +145,7 @@ type CheckoutSessionSubscriptionDataParams struct {
 	TrialEnd              *int64                                        `form:"trial_end"`
 	TrialFromPlan         *bool                                         `form:"trial_from_plan"`
 	TrialPeriodDays       *int64                                        `form:"trial_period_days"`
+	PaymentBehavior       *string                                       `form:"payment_behavior"`
 }
 
 // CheckoutSessionParams is the set of parameters that can be used when creating
